@@ -305,22 +305,29 @@ information-data dt, dd
 
 .information-data dt {
   width: 115px;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 @media (min-width: 769px) {
   .information-data dt {
     width: 170px;
+    font-size: 15px;
+    font-weight: bold;
   }
 }
 
 .information-data dd {
   width: calc(100% - 115px);
+  font-size: 15px;
+  font-weight: bold;
 }
 
 @media (min-width: 769px) {
   .information-data dd {
     width: calc(100% - 170px);
+    font-size: 15px;
+    font-weight: bold;
   }
 }
 
