@@ -1,16 +1,13 @@
 /* =========================================================
-colors
-========================================================= */
-/* =========================================================
 body
 ========================================================= */
+
 @import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 html {
   font-size: 62.5%;
   letter-spacing: 0.03em;
   line-height: 1.3rem;
 }
-
 body {
   background-color: #000;
   color: #000;
@@ -18,7 +15,6 @@ body {
   font-size: 1rem;
   -webkit-overflow-scrolling: touch;
 }
-
 img {
   width: 100%;
 }
@@ -28,418 +24,15 @@ img {
     _zoom: 70% !important;
   }
 }
+
+/* =========================================================
+main
+========================================================= */
+
 main {
   display: block;
   /*IE*/
 }
-
-/* =========================================================
-neon
-========================================================= */
-x-sign {
-  --interval: 1s;
-  display: block;
-  text-shadow:
-    0 0 10px var(--color1),
-    0 0 20px var(--color2),
-    0 0 40px var(--color3),
-    0 0 80px var(--color4);
-  will-change: filter, color;
-  filter: saturate(60%);
-  animation: flicker steps(100) var(--interval) 1s infinite;
-}
-
-x-sign {
-  font-weight: bold;
-  font-size: 25px;
-  margin: 20px auto;
-  color: yellow;
-  --color1: yellow;
-  --color2: lime;
-  --color3: green;
-  --color4: darkgreen;
-  font-family: Monoton;
-}
-
-@keyframes flicker {
-  50% {
-    color: white;
-    filter: saturate(200%) hue-rotate(20deg);
-  }
-}
-
-@media screen and (min-width: 769px) {
-  x-sign {
-    --interval: 1s;
-    display: block;
-    text-shadow:
-      0 0 10px var(--color1),
-      0 0 20px var(--color2),
-      0 0 40px var(--color3),
-      0 0 80px var(--color4);
-    will-change: filter, color;
-    filter: saturate(60%);
-    animation: flicker steps(100) var(--interval) 1s infinite;
-  }
-
-  x-sign {
-    font-weight: bold;
-    font-size: 30px;
-    margin: 20px auto 30px;
-    color: yellow;
-    --color1: yellow;
-    --color2: lime;
-    --color3: green;
-    --color4: darkgreen;
-    font-family: Monoton;
-  }
-
-  @keyframes flicker {
-    50% {
-      color: white;
-      filter: saturate(200%) hue-rotate(20deg);
-    }
-  }
-}
-
-/* =========================================================
-default
-========================================================= */
-/* =========================================================
-PARCO Header
-========================================================= */
-.phd {
-  padding: 0 10px;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
-  overflow: hidden;
-}
-.phd__in {
-  height: 55px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  box-sizing: border-box;
-}
-.phd__logo a {
-  display: inline-block;
-  line-height: 0;
-  font-size: 0;
-}
-.phd__logo__txt {
-  width: 13px;
-  height: 26px;
-  margin-right: 2px;
-}
-.phd__logo__img {
-  width: 92px;
-  height: 27px;
-  vertical-align: bottom;
-  margin-bottom: -1px;
-}
-.phd__logo__img.parcoya-ueno {
-  width: 155px;
-  height: 25px;
-}
-.phd__sns {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.phd__sns li {
-  margin-right: 8px;
-}
-.phd__sns li:last-child {
-  margin-right: 0;
-}
-.phd__sns li a {
-  display: flex;
-  align-items: center;
-  width: 35px;
-  height: 35px;
-  background: #222;
-  border-radius: 50%;
-}
-@media screen and (min-width: 769px) {
-  .phd__sns li a {
-    width: 28px;
-    height: 28px;
-  }
-  .phd__sns li a:hover {
-    opacity: 0.7;
-  }
-}
-.phd__sns li a svg {
-  fill: #FFF;
-  width: 100%;
-}
-
-@media screen and (min-width: 769px) {
-  .phd {
-    padding: 0 20px;
-  }
-  .phd__in {
-    height: 64px;
-  }
-  .phd__logo__txt {
-    display: inline-block;
-    font-size: 1.5rem;
-    width: 14px;
-    height: 32px;
-    margin-right: 4px;
-    vertical-align: middle;
-  }
-  .phd__logo__img {
-    width: 120px;
-    height: 36px;
-    vertical-align: middle;
-  }
-  .phd__logo__img.parcoya-ueno {
-    width: 205px;
-    height: 34px;
-  }
-}
-.phd__sns li .phd__sns__item__link-facebook {
-  background: #3b5998;
-}
-
-.phd__sns li .phd__sns__item__link-facebook svg {
-  height: 20px;
-}
-@media screen and (min-width: 769px) {
-  .phd__sns li .phd__sns__item__link-facebook svg {
-    height: 16px;
-  }
-}
-
-.phd__sns li .phd__sns__item__link-twitter {
-  background: #3AB1DB;
-}
-
-.phd__sns li .phd__sns__item__link-twitter svg {
-  height: 16px;
-}
-@media screen and (min-width: 769px) {
-  .phd__sns li .phd__sns__item__link-twitter svg {
-    height: 11px;
-  }
-}
-
-.phd__sns li .phd__sns__item__link-lineat {
-  background: #00b900;
-}
-
-.phd__sns li .phd__sns__item__link-lineat svg {
-  height: 20px;
-}
-@media screen and (min-width: 769px) {
-  .phd__sns li .phd__sns__item__link-lineat svg {
-    height: 14px;
-  }
-}
-
-.phd__sns li .phd__sns__item__link-instagram {
-  background: #d93174;
-}
-
-.phd__sns li .phd__sns__item__link-instagram svg {
-  height: 19px;
-}
-@media screen and (min-width: 769px) {
-  .phd__sns li .phd__sns__item__link-instagram svg {
-    height: 15px;
-  }
-}
-
-/* =========================================================
-PARCO Footer
-========================================================= */
-.pft {
-  margin-top: 52px;
-  padding: 45px 0 58px;
-  background: #222;
-  position: relative;
-}
-@media screen and (min-width: 769px) {
-  .pft {
-    margin-top: 70px;
-    padding: 50px 0 40px;
-  }
-}
-.pft__in {
-  position: relative;
-  margin: 0 auto;
-}
-@media screen and (min-width: 769px) {
-  .pft__in {
-    max-width: 930px;
-  }
-}
-.pft__logo {
-  text-align: center;
-}
-.pft__logo svg {
-  fill: #fff;
-}
-.pft__logo__txt {
-  width: 14px;
-  height: 32px;
-  margin-right: 4px;
-}
-.pft__logo__img {
-  width: 120px;
-  height: 36px;
-  vertical-align: bottom;
-  margin-bottom: -1px;
-}
-.pft__logo__img.parcoya-ueno {
-  width: 205px;
-  height: 34px;
-}
-.pft__logo.nagoya .pft__logo__txt {
-  margin-right: 5px;
-}
-.pft__pageTop {
-  position: absolute;
-  top: -66px;
-  left: 50%;
-  margin-left: -22px;
-}
-@media screen and (min-width: 769px) {
-  .pft__pageTop {
-    display: none;
-    position: fixed;
-    top: auto;
-    left: auto;
-    right: 30px;
-    bottom: 30px;
-    margin: 0;
-  }
-}
-.pft__pageTop a {
-  display: inline-block;
-  position: relative;
-  width: 45px;
-  height: 45px;
-  background: #222;
-  border-radius: 50%;
-  text-indent: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-}
-@media screen and (min-width: 769px) {
-  .pft__pageTop a {
-    width: 54px;
-    height: 54px;
-    background: #FFF;
-    border-radius: 50%;
-    text-indent: 100%;
-  }
-}
-.pft__pageTop a:after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -5px 0 0 -6px;
-  width: 7px;
-  height: 7px;
-  border-top: #fff 2px solid;
-  border-right: #fff 2px solid;
-  transform: rotate(-45deg);
-}
-@media screen and (min-width: 769px) {
-  .pft__pageTop a:after {
-    top: 50%;
-    left: 50%;
-    margin: -5px 0 0 -7px;
-    width: 11px;
-    height: 11px;
-    border-top: #222 3px solid;
-    border-right: #222 3px solid;
-  }
-}
-.pft__pageTop a:hover {
-  opacity: 0.7;
-}
-.pft__copyright {
-  margin-top: 30px;
-  text-align: center;
-  line-height: 0;
-}
-.pft__copyright svg {
-  height: 11px;
-  fill: #fff;
-  overflow: hidden;
-}
-
-/* =========================================================
-layout
-========================================================= */
-/* =========================================================
-colors
-========================================================= */
-/* =========================================================
-header
-========================================================= */
-
-.header__title .mv {
-  background: url("../images/parco_mv_sp.jpg") no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  margin: 0 auto;
-  height: 10.0vw;
-  position: relative;
-  animation: fuwari 2.2s steps(18) infinite;
-  width: 100%;
-}
-.header__title .mv .logo {
-  margin: 0 auto;
-  position: absolute;
-  top: 5.2vw;
-  left: 0;
-  right: 0;
-  width: 17.6vw;
-}
-
-@media screen and (min-width: 769px) {
-  .header__title .mv {
-    background-image: url("../images/parco_mv_pc.jpg");
-    background-size: auto;
-    height: 60px;
-    width: 1280px;
-  }
-  .header__title .mv .logo {
-    top: 30px;
-    left: 30px;
-    right: auto;
-    width: 93px;
-  }
-}
-@keyframes fuwari {
-  to {
-    background-position: 100% 0;
-  }
-}
-/* =========================================================
-footer
-========================================================= */
-footer {
-  padding: 8px 0 30px;
-  text-align: center;
-}
-footer .copy {
-  color: #fff;
-  font-family: 'Epilogue', sans-serif;
-  font-size: 14px;
-}
-
-/* =========================================================
-Main
-========================================================= */
 .main-contents {
   overflow: hidden;
 }
@@ -450,11 +43,10 @@ Main
     overflow: hidden;
   }
 }
-/* =========================================================
-Contents block
-========================================================= */
 
-/* 文字とコンテンツの余白 */
+/* =========================================================
+infoArea
+========================================================= */
 
 .infoArea {
   margin: 34px auto 0;
@@ -501,6 +93,7 @@ Contents block
 .infoArea p .pc {
   display: none;
 }
+
 @media screen and (min-width: 769px) {
   .infoArea {
     margin: -30px auto -30px;
@@ -540,76 +133,9 @@ Contents block
   }
 }
 
-.shopList {
-  display: flex;
-  flex-wrap: wrap;
-}
-.shopList li {
-  margin-right: 4.348%;
-  margin-bottom: 7vw;
-  width: 47.826%;
-}
-.shopList li:nth-child(2n) {
-  margin-right: 0;
-}
-.shopList li a {
-  display: block;
-  text-decoration: none;
-}
-.shopList li a:hover {
-  opacity: 0.8;
-}
-.shopList li dl {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 10px 7px 0;
-}
-.shopList li dl dt {
-  color: #fff;
-  font-size: 15px;
-  line-height: 1.6;
-  margin-bottom: 3px;
-  text-align: center;
-  width: 100%;
-}
-.shopList li dl dd {
-  background-color: #0000ff;
-  color: #fff;
-  font-size: 11px;
-  margin: 0 4px 4px 0;
-  padding: 5px 10px;
-}
-
-.shopArea01 {
-  max-width: 92%;
-  margin: 0 auto 7vw;
-}
-.shopArea01 .shopPhoto {
-  width: 100%;
-}
-
-.shopArea02 {
-  max-width: 92%;
-  margin: 0 auto;
-}
-
-.shopArea03 {
-  max-width: 92%;
-  margin: 0 auto 7vw;
-}
-.shopArea03 .shopPhoto {
-  margin-bottom: 7vw;
-  width: 100%;
-}
-.shopArea03 .shopPhoto .pc {
-  display: none;
-}
-
-.shopArea04 {
-  max-width: 92%;
-  margin: 0 auto;
-}
+/* =========================================================
+mapArea
+========================================================= */
 
 .mapArea {
   max-width: 800px;
@@ -627,97 +153,6 @@ Contents block
 }
 
 @media screen and (min-width: 769px) {
-  .shopList li {
-    margin-bottom: 25px;
-  }
-  .shopList li dl {
-    padding: 5px 7px 0;
-  }
-  .shopList li dl dt {
-    font-size: 20px;
-    margin-bottom: 5px;
-  }
-  .shopList li dl dd {
-    padding: 6px 12px 5px;
-  }
-
-  .shopArea01 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .shopArea01 .shopList {
-    width: 39.445%;
-  }
-  .shopArea01 .shopList li {
-    margin-right: 2.346%;
-    width: 48.827%;
-  }
-  .shopArea01 .shopList li:nth-child(2n) {
-    margin-right: 0;
-  }
-  .shopArea01 .shopList li:nth-child(1), .shopArea01 .shopList li:nth-child(2) {
-    margin-bottom: 48px;
-  }
-  .shopArea01 .shopPhoto {
-    width: 59.63%;
-  }
-
-  .shopArea02 {
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .shopArea02 .shopList li {
-    margin-right: 0.925%;
-    width: 19.26%;
-  }
-  .shopArea02 .shopList li:nth-child(5n) {
-    margin-right: 0;
-  }
-
-  .shopArea03 {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .shopArea03 .shopList {
-    width: 59.63%;
-  }
-  .shopArea03 .shopList li {
-    margin-right: 1.55%;
-    width: 32.299%;
-  }
-  .shopArea03 .shopList li:nth-child(3n) {
-    margin-right: 0;
-  }
-  .shopArea03 .shopList li:nth-child(1), .shopArea03 .shopList li:nth-child(2), .shopArea03 .shopList li:nth-child(3) {
-    margin-bottom: 24px;
-  }
-  .shopArea03 .shopPhoto {
-    margin-bottom: 0;
-    width: 39.445%;
-  }
-  .shopArea03 .shopPhoto .sp {
-    display: none;
-  }
-  .shopArea03 .shopPhoto .pc {
-    display: block;
-  }
-
-  .shopArea04 {
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-  .shopArea04 .shopList li {
-    margin-right: 0.925%;
-    width: 19.26%;
-  }
-  .shopArea04 .shopList li:nth-child(5n) {
-    margin-right: 0;
-  }
-
   .mapArea {
     margin: 75px auto 100px;
   }
@@ -730,4 +165,171 @@ Contents block
   .mapArea .map {
     width: 666px;
   }
+}
+
+/* =========================================================
+neon
+========================================================= */
+
+x-sign {
+  --interval: 1s;
+  display: block;
+  text-shadow:
+    0 0 10px var(--color1),
+    0 0 20px var(--color2),
+    0 0 40px var(--color3),
+    0 0 80px var(--color4);
+  will-change: filter, color;
+  filter: saturate(60%);
+  animation: flicker steps(100) var(--interval) 1s infinite;
+}
+
+x-sign {
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px auto;
+  color: yellow;
+  --color1: yellow;
+  --color2: lime;
+  --color3: green;
+  --color4: darkgreen;
+  font-family: Monoton;
+}
+
+@keyframes flicker {
+  50% {
+    color: white;
+    filter: saturate(200%) hue-rotate(20deg);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  x-sign {
+    --interval: 1s;
+    display: block;
+    text-shadow:
+      0 0 10px var(--color1),
+      0 0 20px var(--color2),
+      0 0 40px var(--color3),
+      0 0 80px var(--color4);
+    will-change: filter, color;
+    filter: saturate(60%);
+    animation: flicker steps(100) var(--interval) 1s infinite;
+  }
+  x-sign {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px auto 30px;
+    color: yellow;
+    --color1: yellow;
+    --color2: lime;
+    --color3: green;
+    --color4: darkgreen;
+    font-family: Monoton;
+  }
+
+  @keyframes flicker {
+    50% {
+      color: white;
+      filter: saturate(200%) hue-rotate(20deg);
+    }
+  }
+}
+
+/* =========================================================
+storeList
+========================================================= */
+
+.storeList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.storeList li {
+  margin-right: 4.348%;
+  margin-bottom: 7vw;
+  width: 47.826%;
+}
+.storeList li:nth-child(2n) {
+  margin-right: 0;
+}
+.storeList li a {
+  display: block;
+  text-decoration: none;
+}
+.storeList li a:hover {
+  opacity: 0.8;
+}
+.storeList li dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 7px 0;
+}
+.storeList li dl dt {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 3px;
+  text-align: center;
+  width: 100%;
+}
+.storeList li dl dd {
+  background-color: #0000ff;
+  color: #fff;
+  font-size: 11px;
+  margin: 0 4px 4px 0;
+  padding: 5px 10px;
+}
+
+@media screen and (min-width: 769px) {
+  .storeList li {
+    margin-bottom: 25px;
+  }
+  .storeList li dl {
+    padding: 5px 7px 0;
+  }
+  .storeList li dl dt {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .storeList li dl dd {
+    padding: 6px 12px 5px;
+  }
+}
+
+/* =========================================================
+storeArea
+========================================================= */
+
+.storeArea {
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 769px) {
+  .storeArea {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .storeArea .storeList li {
+    margin-right: 0.925%;
+    width: 19.26%;
+  }
+  .storeArea .storeList li:nth-child(5n) {
+    margin-right: 0;
+  }
+}
+
+/* =========================================================
+footer
+========================================================= */
+
+footer {
+  padding: 8px 0 30px;
+  text-align: center;
+}
+footer .copy {
+  color: #fff;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 14px;
 }
