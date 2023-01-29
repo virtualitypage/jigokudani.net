@@ -139,7 +139,7 @@ mapArea
 
 .mapArea {
   max-width: 800px;
-  margin: 10vw auto 14vw;
+  margin: 10vw auto 0vw;
 }
 .mapArea h2 {
   margin: 0 auto 10vw;
@@ -154,7 +154,7 @@ mapArea
 
 @media screen and (min-width: 769px) {
   .mapArea {
-    margin: 75px auto 100px;
+    margin: 75px auto 5px;
   }
   .mapArea h2 {
     margin: 0 auto 30px;
@@ -164,6 +164,73 @@ mapArea
   }
   .mapArea .map {
     width: 666px;
+  }
+}
+
+/* =========================================================
+information bottom
+========================================================= */
+
+.content-bottom {
+  font-weight: bold;
+  text-align: center;
+  margin:auto;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  position: relative;
+}
+
+@media screen and (min-width: 769px) {
+  .content-bottom {
+    text-align: center;
+    margin:auto;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    position: relative;
+  }
+}
+
+.btn-play-info {
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+  padding: 0.5em 3em;
+  text-decoration: none;
+  background-color: #3e8a4c;
+  box-shadow: 0px 0px 0px 2px #0a0a0a;
+  color: #fff;
+  border: solid 2px #316d42;
+  border-top: solid 2px #64cb55;
+}
+.btn-play-info:hover {
+  background-color: #429255;
+}
+.btn-play-info:active {
+  box-shadow: 0px 0px 0px 2px #fff;
+}
+
+@media screen and (min-width: 769px) {
+  .btn-play-info {
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+    padding: 0.5em 10em;
+    text-decoration: none;
+    background-color: #3e8a4c;
+    box-shadow: 0px 0px 0px 2px #0a0a0a;
+    color: #fff;
+    border: solid 2px #316d42;
+    border-top: solid 2px #64cb55;
+  }
+}
+
+article {
+  padding: 7% 0;
+}
+
+@media screen and (min-width: 769px) {
+  article {
+    padding: 7% 0;
   }
 }
 
