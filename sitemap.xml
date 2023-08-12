@@ -3,18 +3,6 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>https://jigokudani.net/</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://jigokudani.net/about</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jigokudani.net/site-map</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://jigokudani.net/diary</loc>
   <priority>0.8</priority>
 </url>
