@@ -492,7 +492,7 @@ information-data dt, dd
   }
 }
 
-@media (min-width: 1025px) {
+/* @media (min-width: 1025px) {
   .information-data dd br {
     display: none;
     color: #fff;
@@ -512,7 +512,7 @@ information-data dt, dd
     width: 35%;
     color: #fff;
   }
-}
+} */
 
 .information-data dd a {
   text-decoration: underline;
