@@ -56,7 +56,7 @@ function information() {
   let date = new Date();
   // alert(date.toLocaleDateString() + " 現在、最新情報はありません");
   // alert(date.toLocaleDateString() + " 現在、諸事情につきサイトの更新を停止しています" + '\n' + "サイトへの率直な意見を述べられるフォームを実装しました！");
-  alert("「立呑みコクレ」「ほっこりばーる ほしぼし」のページを更新しました。");
+  alert("「立呑みコクレ」のページを更新しました。");
 }
 
 function googleForm() {
