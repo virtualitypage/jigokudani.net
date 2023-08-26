@@ -522,6 +522,13 @@ storeList
   margin: 0 4px 4px 0;
   padding: 5px 10px;
 }
+.update {
+  background-color: #1bca00;
+  color: #fff;
+  font-size: 11px;
+  margin: 0 4px 4px 0;
+  padding: 5px 10px;
+}
 
 @media screen and (min-width: 769px) {
   .storeList li {
