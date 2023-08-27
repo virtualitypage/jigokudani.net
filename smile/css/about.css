@@ -56,11 +56,13 @@ header
 .logo {
   width: 100px;
   padding-left: 10px;
+  margin-top: 0px;
 }
 @media screen and (min-width: 940px) {
   .logo {
-    width: 200px;
+    width: 150px;
     padding-left: 20px;
+    margin-top: 0px;
   }
 }
 
@@ -141,10 +143,10 @@ a:-webkit-any-link {
 }
 
 .nav__toggle {
-  background: rgb(240, 103, 255);
+  background: rgb(4, 255, 229);
   position: absolute;
   right: 2rem;
-  top: 1.7rem;
+  top: 1.35rem;
 }
 @media screen and (min-width: 940px) {
   .nav__toggle {
@@ -161,14 +163,14 @@ main
 ========================================================= */
 
 main {
-  padding-top: 60px;
+  padding-top: 30px;
   display: block;
   overflow: hidden;
 
 }
 @media screen and (min-width: 769px) {
   main {
-    padding-top: 120px;
+    padding-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
@@ -176,18 +178,11 @@ main {
 }
 
 img {
+  margin: 10%;
   width: 80%;
   display: block;
   margin: auto;
 }
-@media screen and (min-width: 769px) {
-  img {
-    width: 60%;
-    display: block;
-    margin: auto;
-  }
-}
-
 a {
   text-decoration: none;
 }
@@ -195,6 +190,13 @@ p {
   font-weight: bold;
   font-size: 20px;
   color: #fff;
+}
+@media screen and (min-width: 769px) {
+  p {
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+  }
 }
 
 /* =========================================================
@@ -499,7 +501,7 @@ information-data dt, dd
   }
 }
 
-/* @media (min-width: 1025px) {
+@media (min-width: 1025px) {
   .information-data dd br {
     display: none;
     color: #fff;
@@ -519,7 +521,7 @@ information-data dt, dd
     width: 35%;
     color: #fff;
   }
-} */
+}
 
 .information-data dd a {
   text-decoration: underline;

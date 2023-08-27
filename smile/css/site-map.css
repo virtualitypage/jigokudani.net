@@ -10,10 +10,11 @@ html {
 }
 body {
   margin: 0;
-  padding: 0;
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "游ゴシック体", "Yu Gothic", YuGothic, Meiryo, メイリオ, "Noto Sans JP", sans-serif;
   background-color: #000;
   color: #000;
+  /* font-family: system-ui, sans-serif;
+  font-size: 1rem; */
   -webkit-overflow-scrolling: touch;
 }
 img {
@@ -59,7 +60,7 @@ header
 }
 @media screen and (min-width: 940px) {
   .logo {
-    width: 200px;
+    width: 150px;
     padding-left: 20px;
   }
 }
@@ -95,7 +96,7 @@ span {
     top: 100%;
     right: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
     background-color: #000000;
     visibility: hidden;
     opacity: 0;
@@ -141,10 +142,10 @@ a:-webkit-any-link {
 }
 
 .nav__toggle {
-  background: rgb(240, 103, 255);
+  background: rgb(4, 255, 229);
   position: absolute;
   right: 2rem;
-  top: 1.8rem;
+  top: 1.7rem;
 }
 @media screen and (min-width: 940px) {
   .nav__toggle {
@@ -162,136 +163,73 @@ main
 
 main {
   display: block;
-  /*IE*/
-}
-.main-contents {
-  padding-top: 35px;
+  overflow: hidden;
+  /* padding: 65px 20px; */
+  padding-top: 65px;
+  padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  overflow: hidden;
 }
 @media screen and (min-width: 769px) {
-  .main-contents {
-    padding-top: 100px;
-    padding-left: 5%;
-    padding-right: 5%;
+  main {
+    /* padding: 100px 20px; */
     overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
-/* =========================================================
-infoArea
-========================================================= */
-
-.infoArea {
-  margin: 5% auto 0;
+table {
+  border-collapse: collapse;
   width: 100%;
-  /* padding: 0 0 20vw; */
-  position: relative;
+  height: 100%;
+  display: flex;
+  border-spacing: 1px;
 }
-.infoArea:before {
-  background: url("../images/anime01.gif") no-repeat 0 0;
-  background-size: 100%;
-  content: "";
-  height: 52vw;
-  display: block;
-  position: absolute;
-  bottom: 7vw;
-  left: -2vw;
-  width: 50.6vw;
-}
-.infoArea:after {
-  background: url("../images/anime02.gif") no-repeat 0 0;
-  background-size: 100%;
-  content: "";
-  height: 60vw;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  right: -12vw;
-  width: 64vw;
-}
-.infoArea .subTitle {
-  margin: 0 auto 15px;
-  width: 33.6vw;
-}
-.infoArea h2 {
-  margin: 0 auto 24px;
-  width: 66.13vw;
-}
-.infoArea p {
-  color: #fff;
-  font-size: 13px;
-  line-height: 1.8;
-}
-.infoArea p .pc {
-  display: none;
-}
-
 @media screen and (min-width: 769px) {
-  .infoArea {
-    margin: -60px auto 20px;
-    padding: 55px 0 5px;
-  }
-  .infoArea:before {
-    height: 397px;
-    top: -13px;
-    left: -245px;
-    bottom: auto;
-    width: 386px;
-  }
-  .infoArea:after {
-    height: 414px;
-    top: -16px;
-    right: -322px;
-    bottom: auto;
-    width: 474px;
-  }
-  .infoArea .subTitle {
-    margin: 0 auto 25px;
-    width: 180px;
-  }
-  .infoArea h2 {
-    margin: 0 auto 40px;
-    width: 390px;
-  }
-  .infoArea p {
-    line-height: 2.2;
-    font-size: 15px;
-  }
-  .infoArea p .sp {
-    display: none;
-  }
-  .infoArea p .pc {
-    display: inline-block;
-  }
-}
-
-.unordered_list {
-  width: 100%;
-}
-
-.list_item {
-  color: #fff;
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 1.6;
-  margin-bottom: 3px;
-  width: 100%;
-}
-
-@media screen and (min-width: 769px) {
-  .unordered_list {
+  table {
+    border-collapse: collapse;
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-around;
   }
-  .list_item {
-    margin-bottom: 25px;
-    padding: 5px 7px 0;
-    font-size: 20px;
+}
+
+tr {
+  text-align: center;
+  height: 22px;
+}
+td {
+  width: 2.10084%;
+  text-align: left;
+  height: 22px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(4, 255, 229);
+}
+@media screen and (min-width: 769px) {
+  td {
+    width: 2.10084%;
+    text-align: left;
+    height: 22px;
     font-weight: bold;
-    margin-bottom: 5px;
-    padding: 6px 0 5px;
+    font-size: 20px;
+    color: rgb(4, 255, 229);
   }
+}
+
+.link {
+  text-decoration: underline;
+  color: rgb(4, 255, 229);
+}
+.no_link {
+  color: rgb(0, 83, 74);
 }
 
 /* =========================================================
