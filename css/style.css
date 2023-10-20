@@ -11,11 +11,11 @@ html {
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "游ゴシック体", "Yu Gothic", YuGothic, Meiryo, メイリオ, "Noto Sans JP", sans-serif;
-  background-color: #000;
-  color: #000;
-  /* font-family: system-ui, sans-serif;
-  font-size: 1rem; */
-  -webkit-overflow-scrolling: touch;
+  background-color: #a600ff;
+  background: repeating-linear-gradient( to top,rgba(255,255,255,0.03) 0px 2px,transparent 2px 4px ),linear-gradient(to bottom,#200933 75%,#3d0b43);
+  /* background: repeating-linear-gradient( to top,rgba(255,255,255,0.03) 0px 2px,transparent 2px 4px ),linear-gradient(to bottom,#ff8200 75%,#000000); */
+  /* background-size: 20px 2px; */
+  background-size: 20px 5px;
 }
 img {
   width: 100%;
@@ -79,7 +79,7 @@ header
 
 span {
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
 }
 
@@ -171,7 +171,7 @@ main {
 }
 @media screen and (min-width: 769px) {
   .main-contents {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
@@ -223,6 +223,7 @@ infoArea
   font-size: 10px;
   line-height: 1.8;
   text-align: center;
+  font-weight: bold;
 }
 .infoArea p .pc {
   display: none;
@@ -258,6 +259,7 @@ infoArea
   .infoArea p {
     line-height: 2.2;
     font-size: 15px;
+    font-weight: bold;
   }
   .infoArea p .sp {
     display: none;
@@ -501,12 +503,14 @@ storeList
   padding: 10px 7px 0;
 }
 .storeList li dl dt {
-  color: #fff;
-  font-size: 15px;
+  /* color: #fff; */ /* 通常 */
+  color: orange; /* ハロウィン仕様 */
+  font-size: 20px;
   line-height: 1.6;
   margin-bottom: 3px;
   text-align: center;
   width: 100%;
+  font-weight: bold;
 }
 .storeList li dl dd {
   background-color: #0000ff;
@@ -530,6 +534,26 @@ storeList
   padding: 5px 10px;
 }
 
+/* 通常 */
+/* code-p[class] {
+  color: white;
+  text-shadow: 0 0 2px #100c0f,0 0 35px #ffffff44,0 0 5px white,0 0 2px white;
+}
+code[class] {
+  color: white;
+  text-shadow: 0 0 2px #100c0f,0 0 35px #ffffff44,0 0 5px white,0 0 2px white;
+} */
+
+/* ハロウィン仕様 */
+code-p[class] {
+  color: rgb(255, 123, 0);
+  text-shadow: 0 0 20px rgb(255, 123, 0),0 0 35px rgb(255, 123, 0),0 0 5px rgb(255, 123, 0),0 0 50px darkorange;
+}
+code[class] {
+  color: rgb(255, 123, 0);
+  text-shadow: 0 0 20px rgb(255, 123, 0),0 0 35px rgb(255, 123, 0),0 0 5px rgb(255, 123, 0),0 0 50px darkorange;
+}
+
 @media screen and (min-width: 769px) {
   .storeList li {
     margin-bottom: 25px;
@@ -540,6 +564,7 @@ storeList
   .storeList li dl dt {
     font-size: 20px;
     margin-bottom: 5px;
+    font-weight: bold;
   }
   .storeList li dl dd {
     padding: 6px 12px 5px;
