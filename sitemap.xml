@@ -79,6 +79,10 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://jigokudani.net/about/kokure</loc>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://jigokudani.net/about/sakura_next</loc>
   <priority>0.8</priority>
 </url>
@@ -279,6 +283,10 @@
   <priority>0.7</priority>
 </url>
 <url>
+  <loc>https://jigokudani.net/site-map/about/kokure</loc>
+  <priority>0.7</priority>
+</url>
+<url>
   <loc>https://jigokudani.net/site-map/about/sakura_next</loc>
   <priority>0.7</priority>
 </url>
@@ -387,39 +395,67 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/diary/2023_6_17</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-6-17</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/diary/2023_6_23</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-6-23</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/diary/2023_8_8</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-8-8</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/news/2023_6_17</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-8-12</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/news/2023_6_30</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-8-30</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/news/2023_7_21</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-9-23</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/news/2023_8_4</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-10-2</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/news/2023_8_7</loc>
+  <loc>https://jigokudani.net/site-map/diary/2023-10-27</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/site-map/news/2023_8_8</loc>
+  <loc>https://jigokudani.net/site-map/news/2023-6-17</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/news/2023-6-30</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/news/2023-7-21</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/news/2023-8-4</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/news/2023-8-7</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/news/2023-8-8</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/news/2023-8-21</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/site-map/smile/index</loc>
   <priority>0.7</priority>
 </url>
 <url>
@@ -439,15 +475,31 @@
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/diary/diary/2023_6_17</loc>
+  <loc>https://jigokudani.net/diary/diary/2023-6-23</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/diary/diary/2023_6_23</loc>
+  <loc>https://jigokudani.net/diary/diary/2023-8-8</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/diary/diary/2023_8_8</loc>
+  <loc>https://jigokudani.net/diary/diary/2023-8-12</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/diary/diary/2023-8-30</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/diary/diary/2023-9-23</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/diary/diary/2023-10-2</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/diary/diary/2023-10-27</loc>
   <priority>0.7</priority>
 </url>
 <url>
