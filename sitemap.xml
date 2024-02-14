@@ -506,5 +506,9 @@
   <loc>https://jigokudani.net/about/about</loc>
   <priority>0.7</priority>
 </url>
+<url>
+  <loc>https://jigokudani.net/ads.txt</loc>
+  <priority>0.7</priority>
+</url>
 
 </urlset>
