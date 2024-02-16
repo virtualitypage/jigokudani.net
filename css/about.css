@@ -490,7 +490,7 @@ p, table, blockquote, address, pre, iframe, form, figure, dl {
 }
 
 /* =========================================================
-information-data dt, dd
+information-data dt, dd, modified, unmodified
 ========================================================= */
 
 .information-data dt {
@@ -531,6 +531,54 @@ information-data dt, dd
     /* display: flex; */
     align-items: center;
     color: #fff;
+  }
+}
+
+.modified {
+  width: 115px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(0, 255, 0);
+}
+
+@media (min-width: 769px) {
+  .modified {
+    width: 170px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+  }
+}
+
+.modified {
+  width: 115px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(0, 255, 0);
+}
+
+@media (min-width: 769px) {
+  .modified {
+    width: 170px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+  }
+}
+
+.unmodified {
+  width: 115px;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+}
+
+@media (min-width: 769px) {
+  .unmodified {
+    width: 170px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
   }
 }
 
