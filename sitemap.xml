@@ -7,26 +7,6 @@
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/ads.txt</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://jigokudani.net/about</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jigokudani.net/site-map</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jigokudani.net/news</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://jigokudani.net/diary</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://jigokudani.net/about/akihisa</loc>
   <priority>0.8</priority>
 </url>

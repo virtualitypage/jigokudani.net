@@ -16,48 +16,41 @@
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8733534635553152" crossorigin="anonymous"></script>
   </head>
-  <header class="site-header">
-    <div class="site-header__wrapper">
-      <div class="site-header__start">
-        <a href=""><img class="logo" src="../img/jigokudani.jpg" alt="地獄谷"></a>
-      </div>
-      <div class="site-header__middle">
-        <nav class="nav">
-          <button class="nav__toggle" aria-expanded="false" type="button" aria-haspopup="true" aria-label="menu">
+  <body>
+    <header class="head">
+      <div class="head_wrap">
+        <a href="">
+          <img class="logo" src="../img/jigokudani.jpg" alt="地獄谷">
+        </a>
+        <nav class="global-nav">
+          <button class="nav_toggle-menu" type="button">
             menu
           </button>
-          <ul class="nav__wrapper">
-            <li class="nav__item">
+          <ul class="nav_wrap">
+            <li class="nav_menu">
               <a href="../index">
-                <span2>Home</span2>
+                <span class="nav_text">Home</span>
               </a>
             </li>
-            <li class="nav__item">
+            <li class="nav_menu">
               <a href="../about">
-                <span2>About</span2>
+                <span class="nav_text">About</span>
               </a>
             </li>
-            <li class="nav__item">
+            <li class="nav_menu">
               <a href="../site-map">
-                <span2>Site map</span2>
+                <span class="nav_text">Site map</span>
               </a>
             </li>
-            <li class="nav__item">
-              <a href="../news">
-                <span2>News</span2>
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="../diary">
-                <span2>Diary</span2>
+            <li class="nav_menu">
+              <a href="../release_note">
+                <span class="nav_text">Release</span>
               </a>
             </li>
           </ul>
         </nav>
       </div>
-    </div>
-  </header>
-  <body>
+    </header>
     <main>
       <script src="../js/main.js"></script>
       <div class="img">
@@ -65,7 +58,7 @@
       </div>
       <div class="info">
         <code class="cm-s-default">
-          <p class="storeName">串焼きダイニング 善</p>
+          <p class="store-name">串焼きダイニング 善</p>
         </code>
         <div class="info-block block" id="information">
           <div class="information">
@@ -74,7 +67,7 @@
               <p class="ja">施設情報</p>
             </div>
             <div class="information-data">
-              <div class="head"></div>
+              <div class="column"></div>
               <dl class="data-list">
                 <div class="bundle">
                   <dt>住所</dt>
@@ -103,7 +96,7 @@
                 <div class="bundle">
                   <dt>更新日</dt>
                   <dd>
-                    <span class="unmodified">YYYY/MM/DD</span>
+                    <span class="modified">2022/10/1</span>
                   </dd>
                 </div>
               </dl>
@@ -117,58 +110,598 @@
               <p class="ja">メニュー情報</p>
             </div>
             <div class="information-data">
-              <div class="head">フード</div>
+              <div class="column">フード(鶏の串焼（１本）)</div>
               <dl class="data-list">
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>もも肉</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>せせり（ねっく）</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>ねぎま</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>皮</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>ずり</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>130円</dt>
+                  <dd>こころ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>きも</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>ささみわさび</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>ささみチーズ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>ささみ梅</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>極上とろ皮</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>特製つくね</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>230円</dt>
+                  <dd>特製つくねチーズ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>230円</dt>
+                  <dd>特製温玉つくね</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>130円</dt>
+                  <dd>ひざ軟骨（形が◯でかため）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>140円</dt>
+                  <dd>むね軟骨（形が△で柔らかめ）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>ぼんじり</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>手？</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>140円</dt>
+                  <dd>うずら卵</dd>
                 </div>
               </dl>
               <br>
               <br>
-              <div class="head">ドリンク</div>
+              <div class="column">フード(野菜の串焼（１本）)</div>
               <dl class="data-list">
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>ピーマンのタレ焼き</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>130円</dt>
+                  <dd>玉ねぎの白醤油</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>150円</dt>
+                  <dd>なすの田楽味噌</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>140円</dt>
+                  <dd>じゃがいも香草バター</dd>
                 </div>
                 <div class="bundle2">
-                  <dt>円</dt>
-                  <dd>-</dd>
+                  <dt>160円</dt>
+                  <dd>しいたけのダシ醤油</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>エリンギのすだちポン酢</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>長芋サワークリーム添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>白ねぎのダシ醤油</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>アスパラのフレンチドレッシング</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(その他の串焼)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>190円</dt>
+                  <dd>牛肉おろしポン酢</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>豚バラの味噌焼き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>トマトベーコン</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>カレー風味ピーマン肉詰め 福神漬け添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>しいたけ肉詰め袖子胡椒</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>れんこんの肉詰め</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>エビの香菜焼き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>140円</dt>
+                  <dd>イカのソースがらめ</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(鶏のお刺身)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>980円</dt>
+                  <dd>お刺身盛り合わせ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>きも刺し</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>きもポン酢刺し</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>きも刺しあぶり</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>ずり刺し</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>こころ刺し</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>ささみ刺し</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>ささみの漬け刺し</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>ささみユッケ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>ささみの湯引きポン酢</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>280円</dt>
+                  <dd>皮の湯引きポン酢</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>280円</dt>
+                  <dd>ずりのえんがわ</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(一品)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>250円</dt>
+                  <dd>沖縄皮味付けもずく</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>300円</dt>
+                  <dd>自家製きゅうりの浅漬け</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>大根と水菜のサラダ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>胡麻ダレ豆腐サラダ</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(ZENのオリジナル串焼)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>200円</dt>
+                  <dd>せせりのチキン南蛮自家製タルタルソース</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>せせりの山わさび添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>せせりのチーズとバジルソース</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>せせりの生姜焼き風</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>ささみのとろろ昆布と三杯酢のジュレ添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>ささみのみぶな抑え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>ささみの西京味噌焼き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>ささみのウニソースとびこ添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>ささみの明太子マヨネーズあぶり焼き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>心の塩ダレ三つ幕添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>砂ズリの南蛮漬け風</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>鶏レバーの黒酢がらめ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>ズッキーニの香草バター添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>玉ねぎのコンソメスープのジュレ添え</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>140円</dt>
+                  <dd>ししゃもの甘辛醤油焼き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>180円</dt>
+                  <dd>えびのコチジャンソース中華風</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(もも肉のバリエーション)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>もも肉のハニーマスタードソース</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>150円</dt>
+                  <dd>もも肉の梅しそ続き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>もも肉のねぎしおダレ焼き</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>もも肉のグリーンカレーソース</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>160円</dt>
+                  <dd>もも肉のペペロンテーノ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>もも肉のアラビアータソース</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>170円</dt>
+                  <dd>もも肉のにんにく醤油漬け添え</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(揚げ物)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>手羽の甘辛揚げ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>530円</dt>
+                  <dd>鶏のからあげ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>530円</dt>
+                  <dd>むね肉の竜田揚げ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>280円</dt>
+                  <dd>皮せんべい（２枚）</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(鶏の一品)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>鶏ハラミ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>せぎも</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>玉ひも</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">フード(ご飯もの・スープ)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>350円</dt>
+                  <dd>おにぎり（２個）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>280円</dt>
+                  <dd>焼きおにぎり（一個）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>280円</dt>
+                  <dd>味噌焼さおにぎり（一個）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>330円</dt>
+                  <dd>鶏スープ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>330円</dt>
+                  <dd>お玉汁（お吸い物）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>380円</dt>
+                  <dd>ダシ茶漬け（梅・昆布からお選びください）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>530円</dt>
+                  <dd>焼きおにぎりのダシ茶漬け</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>550円</dt>
+                  <dd>ZEN丼（焼き鳥串・もも肉・心・ぼんじり・つくね入り）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>550円</dt>
+                  <dd>月見つくね丼</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>550円</dt>
+                  <dd>鶏ぞうすい</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>550円</dt>
+                  <dd>鶏にゅうめん</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>580円</dt>
+                  <dd>２回楽しむささみ漬け丼</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>280円</dt>
+                  <dd>ガーリックトースト</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>190円</dt>
+                  <dd>今月の自家製アイス</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(ビール)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>生ビール（スーパードライ）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>C．C．ドライ（CCレモン＋スーパードライ）</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(チュウハイ生搾り)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>レモン</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>グレープフルーツ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>うめ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>ライム</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>オレンジ</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(グラスワイン)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>赤（オスコ・ロッツ）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>白（オスコ・ビアンコ）</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>1500円〜</dt>
+                  <dd>ハーフボトル</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>3000円〜</dt>
+                  <dd>フルボトル</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(ソフトドリンク)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>230円</dt>
+                  <dd>ウーロン茶</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>250円</dt>
+                  <dd>コーラ</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>200円</dt>
+                  <dd>ミネラルウォーター</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(あったかいお茶)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>300円</dt>
+                  <dd>津軽りんご緑茶</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>300円</dt>
+                  <dd>焙煎豆々常（ほうじ茶）</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(焼酎（芋）)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>黒霧島</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>富乃宝山</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>480円</dt>
+                  <dd>山ねこ</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(焼酎（麦）)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>430円</dt>
+                  <dd>中々</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>500円</dt>
+                  <dd>兼八（かねはち）</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(前割り焼酎)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>前割り富乃宝山　ロック</dd>
+                </div>
+                <div class="bundle2">
+                  <dt>580円</dt>
+                  <dd>前割り富乃宝山　燗</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">
+                ドリンク(日本酒)<br>※今月入荷のお酒 貼り紙メニューに記載
+              </div>
+              <dl class="data-list"></dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(梅酒)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>450円</dt>
+                  <dd>鶴梅完熟甘口</dd>
+                </div>
+              </dl>
+              <br>
+              <br>
+              <div class="column">ドリンク(ハイボール)</div>
+              <dl class="data-list">
+                <div class="bundle2">
+                  <dt>400円</dt>
+                  <dd>ピークウイスキーハイボール</dd>
                 </div>
               </dl>
             </div>
           </div>
           <footer>
-            <div class="copy">💀 2024 Hell Valley</div>
+            <div class="foot">💀 2024 Hell Valley</div>
           </footer>
         </div>
       </div>

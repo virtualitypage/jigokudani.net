@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>呑み屋街 "地獄谷" の隠しサイト</title>
+    <title>呑み屋街 "地獄谷" の隠れサイト</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-adsense-account" content="ca-pub-8733534635553152">
     <meta name="description" content="野田新橋筋商店街にある呑み屋街「地獄谷」の全店舗を紹介するサイト">
     <meta name="keywords" content="野田阪神,地獄谷,居酒屋">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-F00MC1WG8L"></script>
     <script>
@@ -20,52 +21,45 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8733534635553152" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-header__wrapper">
-        <div class="site-header__start">
-          <a href=""><img class="logo" src="./img/jigokudani.jpg" alt="地獄谷"></a>
-        </div>
-        <div class="site-header__middle">
-          <nav class="nav">
-            <button class="nav__toggle" type="button">
-              menu
-            </button>
-            <ul class="nav__wrapper">
-              <li class="nav__item">
-                <a href="./about">
-                  <span>About</span>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="./site-map">
-                  <span>Site map</span>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="news">
-                  <span>News</span>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a href="./diary">
-                  <span>Diary</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <header class="head">
+      <div class="head_wrap">
+        <a href="">
+          <img class="logo" src="./img/jigokudani.jpg" alt="地獄谷">
+        </a>
+        <nav class="global-nav">
+          <button class="nav_toggle-menu" type="button">
+            menu
+          </button>
+          <ul class="nav_wrap">
+            <li class="nav_menu">
+              <a href="./about">
+                <span>About</span>
+              </a>
+            </li>
+            <li class="nav_menu">
+              <a href="./site-map">
+                <span>Site map</span>
+              </a>
+            </li>
+            <li class="nav_menu">
+              <a href="./release_note">
+                <span>Release</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <main class="main-contents">
-      <div class="snow-container">
+    <main>
+      <!-- <div class="snow-container">
         <span class="snow" style="width: 12px; height: 12px; left: 489px;"></span>
-      </div>
-      <code-p class="cm-s-default2">
-        <div class="infoArea">
+      </div> -->
+      <codes class="cm-s-default">
+        <div class="introduction">
           <p>阪神野田駅または地下鉄野田阪神駅を出て徒歩5分<br>そこには大阪市福島区吉野の通称<br>「地獄谷」という呑み屋街があります。<br><br>古民家と酒場が共存するこの一角は<br>昭和の雰囲気を色濃く残すレトロな呑み屋街として、<br>今もその姿を現代に語り継いでいます。</p>
         </div>
-      </code-p>
-      <div class="mapArea">
+      </codes>
+      <div class="hero">
         <x-sign>
           <p style="text-align: center;">LOCAL MAP</p>
         </x-sign>
@@ -73,58 +67,51 @@
           <img src="./img/map.jpg" alt="locale MAP">
         </div>
       </div>
+      <br>
+      <marquee id="information"></marquee>
       <article>
-        <table class="content-bottom">
+        <table class="btn-group">
           <tr>
             <td>
-              <a class="btn-play-info" onclick="information()">インフォメーション</a>
+              <a class="btn-form" onclick="googleForm()">御意見頂戴フォーム</a>
             </td>
             <td>
-              <p>　　　　　</p>
+              <p>　　</p>
             </td>
             <td>
-              <a class="btn-play-form" onclick="googleForm()">御意見頂戴フォーム</a>
+              <a class="btn-another_site" href="./smile/index">❚█═ SMILE ═█❚</a>
             </td>
           </tr>
         </table>
       </article>
       <code class="cm-s-default">
-      <div class="storeArea">
-        <ul class="storeList">
+      <div class="shop-group">
+        <ul class="shop-list">
           <li>
             <a href="./about/akihisa" target="_blank">
-              <div class="pict">
-                <img src="./img/akihisa.jpg" alt="串揚げ居酒屋 秋久">
-              </div>
+              <img src="./img/akihisa.jpg" alt="串揚げ居酒屋 秋久">
               <dl>
-                <x-sign2 class="halloween">
-                  <dt>串揚げ居酒屋<br>秋久</dt>
-                </x-sign2>
-                <br>
+                <dt>串揚げ居酒屋 <br class="line-break">秋久</dt>
               </dl>
               <dl>
                 <dd>串揚げ</dd>
                 <dd>串カツ</dd>
-              </dl>
-            </a>
-          </li>
-          <li>
-            <a href="./about/miki" target="_blank">
-              <div class="pict">
-                <img src="./img/miki.jpg" alt="味希 野田阪神店">
-              </div>
-              <dl>
-                <dt>味希 野田阪神店</dt>
-                <dd>焼肉</dd>
                 <div class="update">更新!</div>
               </dl>
             </a>
           </li>
           <li>
+            <a href="./about/miki" target="_blank">
+              <img src="./img/miki.jpg" alt="味希 野田阪神店">
+              <dl>
+                <dt>味希 野田阪神店</dt>
+                <dd>焼肉</dd>
+              </dl>
+            </a>
+          </li>
+          <li>
             <a href="./about/deuce_mix_kitchen_bakery" target="_blank">
-              <div class="pict">
-                <img src="./img/deuce_mix.jpg" alt="デュース ミックス キッチン ベーカリー">
-              </div>
+              <img src="./img/deuce_mix.jpg" alt="デュース ミックス キッチン ベーカリー">
               <dl>
                 <dt>デュース ミックス<br>キッチン ベーカリー</dt>
                 <dd>パン</dd>
@@ -133,56 +120,50 @@
           </li>
           <li>
             <a href="./about/zen" target="_blank">
-              <div class="pict">
-                <img src="./img/zen.jpg" alt="串焼きダイニング 善">
-              </div>
+              <img src="./img/zen.jpg" alt="串焼きダイニング 善">
               <dl>
                 <dt>串焼きダイニング 善</dt>
                 <dd>焼鳥</dd>
+                <div class="update">更新!</div>
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/stand-sakaba_maharo" target="_blank">
-              <div class="pict">
-                <img src="./img/stand-sakaba_maharo.jpg" alt="スタンド酒場 まはろ">
-              </div>
+              <img src="./img/stand-sakaba_maharo.jpg" alt="スタンド酒場 まはろ">
               <dl>
-                <dt>スタンド酒場<br>まはろ</dt>
+                <dt>スタンド酒場 <br class="line-break">まはろ</dt>
                 <dd>立ち呑み居酒屋</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/koshou" target="_blank">
-              <div class="pict">
-                <img src="./img/koshou.jpg" alt="粉匠">
-              </div>
+              <img src="./img/koshou.jpg" alt="粉匠">
               <dl>
                 <dt>粉匠</dt>
                 <dd>居酒屋</dd>
                 <dd>お好み焼き</dd>
                 <dd>鉄板焼き</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/yagi-chan" target="_blank">
-              <div class="pict">
-                <img src="./img/yagi-chan.jpg" alt="海鮮居酒屋 やぎちゃん">
-              </div>
+              <img src="./img/yagi-chan.jpg" alt="海鮮居酒屋 やぎちゃん">
               <dl>
                 <dt>海鮮居酒屋<br>やぎちゃん</dt>
                 <dd>居酒屋</dd>
                 <dd>魚介・海鮮料理</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/tousen" target="_blank">
-              <div class="pict">
-                <img src="./img/tousen.jpg" alt="中川酒造 透泉">
-              </div>
+              <img src="./img/tousen.jpg" alt="中川酒造 透泉">
               <dl>
                 <dt>中川酒造 透泉</dt>
                 <dd>居酒屋</dd>
@@ -191,66 +172,58 @@
           </li>
           <li>
             <a href="./about/pagu_chan" target="_blank">
-              <div class="pict">
-                <img src="./img/pagu_chan.jpg" alt="立呑 ぱぐちゃん">
-              </div>
+              <img src="./img/pagu_chan.jpg" alt="立呑 ぱぐちゃん">
               <dl>
                 <dt>立呑 ぱぐちゃん</dt>
                 <dd>立ち呑み居酒屋</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/otahuku" target="_blank">
-              <div class="pict">
-                <img src="./img/otahuku.jpg" alt="大衆酒場 お多福">
-              </div>
+              <img src="./img/otahuku.jpg" alt="大衆酒場 お多福">
               <dl>
                 <dt>大衆酒場 お多福</dt>
                 <dd>居酒屋</dd>
                 <dd>魚介・海鮮料理</dd>
                 <dd>天ぷら</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/senior_club" target="_blank">
-              <div class="pict">
-                <img src="./img/senior_club.jpg" alt="シニア倶楽部 遊時">
-              </div>
+              <img src="./img/senior_club.jpg" alt="シニア倶楽部 遊時">
               <dl>
-                <dt>シニア倶楽部 遊時</dt>
+                <dt>シニア倶楽部 <br class="line-break">遊時</dt>
                 <dd>スナック</dd>
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/stand_toyo" target="_blank">
-              <div class="pict">
-                <img src="./img/stand_toyo.jpg" alt="スタンド とよ">
-              </div>
+              <img src="./img/stand_toyo.jpg" alt="スタンド とよ">
               <dl>
                 <dt>スタンド とよ</dt>
                 <dd>居酒屋</dd>
+                <div class="update">更新!</div>
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/sakaba_karon" target="_blank">
-              <div class="pict">
-                <img src="./img/sakaba_karon.jpg" alt="酒場カロン">
-              </div>
+              <img src="./img/sakaba_karon.jpg" alt="酒場カロン">
               <dl>
                 <dt>酒場カロン</dt>
                 <dd>立ち呑み居酒屋</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/snack_saki" target="_blank">
-              <div class="pict">
-                <img src="./img/snack_saki.jpg" alt="スナック咲">
-              </div>
+              <img src="./img/snack_saki.jpg" alt="スナック咲">
               <dl>
                 <dt>スナック咲</dt>
                 <dd>スナック</dd>
@@ -259,47 +232,40 @@
           </li>
           <li>
             <a href="./about/maruei" target="_blank">
-              <div class="pict">
-                <img src="./img/maruei.jpg" alt="マルエイ">
-              </div>
+              <img src="./img/maruei.jpg" alt="マルエイ">
               <dl>
                 <dt>マルエイ</dt>
                 <dd>居酒屋</dd>
                 <dd>おでん</dd>
                 <dd>鉄板焼き</dd>
-                <div class="update">更新!</div>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/kokure" target="_blank">
-              <div class="pict">
-                <img src="./img/kokure.jpg" alt="立呑みコクレ">
-              </div>
+              <img src="./img/kokure.jpg" alt="立呑みコクレ">
               <dl>
                 <dt>立呑みコクレ</dt>
                 <dd>立ち呑みバー</dd>
-                <!-- <div class="ddd">休業中</div> -->
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/sakura_next" target="_blank">
-              <div class="pict">
-                <img src="./img/sakura_next.jpg" alt="桜ねくすと">
-              </div>
+              <img src="./img/sakura_next.jpg" alt="桜ねくすと">
               <dl>
                 <dt>桜ねくすと</dt>
                 <dd>居酒屋</dd>
                 <dd>中華料理</dd>
+                <div class="update">更新!</div>
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/hokkoriba-ru_hoshiboshi" target="_blank">
-              <div class="pict">
-                <img src="./img/hokkoriba-ru_hoshiboshi.jpg" alt="ほっこりばーる ほしぼし">
-              </div>
+              <img src="./img/hokkoriba-ru_hoshiboshi.jpg" alt="ほっこりばーる ほしぼし">
               <dl>
                 <dt>ほっこりばーる<br>ほしぼし</dt>
                 <dd>バー</dd>
@@ -309,20 +275,17 @@
           </li>
           <li>
             <a href="./about/gyouza_sankaku" target="_blank">
-              <div class="pict">
-                <img src="./img/gyouza_sankaku.jpg" alt="地獄谷 餃子さんかく">
-              </div>
+              <img src="./img/gyouza_sankaku.jpg" alt="地獄谷 餃子さんかく">
               <dl>
-                <dt>地獄谷 餃子さんかく</dt>
+                <dt>地獄谷 <br class="line-break">餃子さんかく</dt>
                 <dd>餃子</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/asobi-bar_aira" target="_blank">
-              <div class="pict">
-                <img src="./img/asobi-bar_aira.jpg" alt="遊びBAR アイラ">
-              </div>
+              <img src="./img/asobi-bar_aira.jpg" alt="遊びBAR アイラ">
               <dl>
                 <dt>遊びBAR アイラ</dt>
                 <dd>カラオケバー</dd>
@@ -331,9 +294,7 @@
           </li>
           <li>
             <a href="./about/bar_hanare" target="_blank">
-              <div class="pict">
-                <img src="./img/bar_hanare.jpg" alt="BARハナレ">
-              </div>
+              <img src="./img/bar_hanare.jpg" alt="BARハナレ">
               <dl>
                 <dt>BARハナレ</dt>
                 <dd>カラオケバー</dd>
@@ -342,44 +303,39 @@
           </li>
           <li>
             <a href="./about/ichimaru_ramen" target="_blank">
-              <div class="pict">
-                <img src="./img/ichimaru_ramen.jpg" alt="いちまるらーめん">
-              </div>
+              <img src="./img/ichimaru_ramen.jpg" alt="いちまるらーめん">
               <dl>
                 <dt>いちまるらーめん</dt>
                 <dd>ラーメン</dd>
                 <dd>居酒屋・ダイニングバー</dd>
                 <dd>油そば</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/sakaba_daigaku" target="_blank">
-              <div class="pict">
-                <img src="./img/sakaba_daigaku.jpg" alt="酒場ダイガク">
-              </div>
+              <img src="./img/sakaba_daigaku.jpg" alt="酒場ダイガク">
               <dl>
                 <dt>酒場ダイガク</dt>
                 <dd>居酒屋</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/tetsukabuto" target="_blank">
-              <div class="pict">
-                <img src="./img/tetsukabuto.jpg" alt="炭火焼鳥 鉄カブト">
-              </div>
+              <img src="./img/tetsukabuto.jpg" alt="炭火焼鳥 鉄カブト">
               <dl>
-                <dt>炭火焼鳥 鉄カブト</dt>
+                <dt>炭火焼鳥 <br class="line-break">鉄カブト</dt>
                 <dd>焼鳥</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/the_zoo" target="_blank">
-              <div class="pict">
-                <img src="./img/the_zoo.jpg" alt="THE ZOO">
-              </div>
+              <img src="./img/the_zoo.jpg" alt="THE ZOO">
               <dl>
                 <dt>THE ZOO</dt>
                 <dd>バー</dd>
@@ -388,32 +344,28 @@
           </li>
           <li>
             <a href="./about/shou" target="_blank">
-              <div class="pict">
-                <img src="./img/shou.jpg" alt="shou">
-              </div>
+              <img src="./img/shou.jpg" alt="shou">
               <dl>
                 <dt>天ぷらとお出汁 渉</dt>
                 <dd>天ぷら</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/soyogi_an" target="_blank">
-              <div class="pict">
-                <img src="./img/soyogi_an.jpg" alt="そよぎ庵">
-              </div>
+              <img src="./img/soyogi_an.jpg" alt="そよぎ庵">
               <dl>
                 <dt>そよぎ庵</dt>
                 <dd>茶葉料理</dd>
                 <dd>バー</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/move_on" target="_blank">
-              <div class="pict">
-                <img src="./img/move_on.jpg" alt="move on">
-              </div>
+              <img src="./img/move_on.jpg" alt="move on">
               <dl>
                 <dt>move on</dt>
                 <dd>スナック</dd>
@@ -422,65 +374,58 @@
           </li>
           <li>
             <a href="./about/goemon" target="_blank">
-              <div class="pict">
-                <img src="./img/goemon.jpg" alt="五右衛門">
-              </div>
+              <img src="./img/goemon.jpg" alt="五右衛門">
               <dl>
                 <dt>五右衛門</dt>
                 <dd>カレー</dd>
+                <div class="update">更新!</div>
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/karaoke-bar_tsu-yan" target="_blank">
-              <div class="pict">
-                <img src="./img/karaoke-bar_tsu-yan.jpg" alt="jigokudani karaoke bar つーやん">
-              </div>
+              <img src="./img/karaoke-bar_tsu-yan.jpg" alt="jigokudani karaoke bar つーやん">
               <dl>
-                <dt>jigokudani karaoke bar つーやん</dt>
+                <dt>jigokudani karaoke bar <br class="line-break">つーやん</dt>
                 <dd>カラオケバー</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/nomidokoro_nagomi" target="_blank">
-              <div class="pict">
-                <img src="./img/nomidokoro_nagomi.jpg" alt="呑処 なごみ">
-              </div>
+              <img src="./img/nomidokoro_nagomi.jpg" alt="呑処 なごみ">
               <dl>
                 <dt>呑処 なごみ</dt>
                 <dd>居酒屋</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/shiragiku" target="_blank">
-              <div class="pict">
-                <img src="./img/shiragiku.jpg" alt="おとーり酒場　白菊">
-              </div>
+              <img src="./img/shiragiku.jpg" alt="おとーり酒場　白菊">
               <dl>
-                <dt>おとーり酒場　白菊</dt>
+                <dt>おとーり酒場　<br class="line-break">白菊</dt>
                 <dd>居酒屋</dd>
                 <dd>沖縄料理</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/utanoya" target="_blank">
-              <div class="pict">
-                <img src="./img/utanoya.jpg" alt="うたのや">
-              </div>
+              <img src="./img/utanoya.jpg" alt="うたのや">
               <dl>
                 <dt>うたのや</dt>
                 <dd>カラオケバー</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/snack_ai" target="_blank">
-              <div class="pict">
-                <img src="./img/snack_ai.jpg" alt="スナック愛">
-              </div>
+              <img src="./img/snack_ai.jpg" alt="スナック愛">
               <dl>
                 <dt>スナック愛</dt>
                 <dd>スナック</dd>
@@ -489,68 +434,59 @@
           </li>
           <li>
             <a href="./about/shuen_yururi" target="_blank">
-              <div class="pict">
-                <img src="./img/shuen_yururi.jpg" alt="酒縁　ゆるり">
-              </div>
+              <img src="./img/shuen_yururi.jpg" alt="酒縁　ゆるり">
               <dl>
                 <dt>酒縁　ゆるり</dt>
                 <dd>日本酒バー</dd>
                 <dd>郷土料理</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/kouhuku" target="_blank">
-              <div class="pict">
-                <img src="./img/kouhuku.jpg" alt="こうふく">
-              </div>
+              <img src="./img/kouhuku.jpg" alt="こうふく">
               <dl>
                 <dt>こうふく</dt>
                 <dd>お好み焼き</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/kushiyaki_tsu-tan" target="_blank">
-              <div class="pict">
-                <img src="./img/kushiyaki_tsu-tan.jpg" alt="地獄谷 串焼つーたん">
-              </div>
+              <img src="./img/kushiyaki_tsu-tan.jpg" alt="地獄谷 串焼つーたん">
               <dl>
-                <dt>地獄谷 串焼つーたん</dt>
+                <dt>地獄谷 <br class="line-break">串焼つーたん</dt>
                 <dd>立ち呑み居酒屋</dd>
                 <dd>串焼き</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/hermanos" target="_blank">
-              <div class="pict">
-                <img src="./img/404.jpg" alt="地獄谷立呑みスタンドエルマノス">
-              </div>
+              <img src="./img/404.jpg" alt="地獄谷立呑みスタンドエルマノス">
               <dl>
                 <dt>地獄谷立呑みスタンドエルマノス</dt>
                 <dd>バー</dd>
-                <div class="update">更新!</div>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/meido_bar" target="_blank">
-              <div class="pict">
-                <img src="./img/meido_bar.jpg" alt="地獄谷冥土バー">
-              </div>
+              <img src="./img/meido_bar.jpg" alt="地獄谷冥土バー">
               <dl>
                 <dt>地獄谷冥土バー</dt>
                 <dd>バー</dd>
-                <div class="update">更新!</div>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/terimi" target="_blank">
-              <div class="pict">
-                <img src="./img/terimi.jpg" alt="照味">
-              </div>
+              <img src="./img/terimi.jpg" alt="照味">
               <dl>
                 <dt>照味</dt>
                 <dd>居酒屋</dd>
@@ -559,9 +495,7 @@
           </li>
           <li>
             <a href="./about/R" target="_blank">
-              <div class="pict">
-                <img src="./img/R.jpg" alt="R">
-              </div>
+              <img src="./img/R.jpg" alt="R">
               <dl>
                 <dt>R</dt>
                 <dd>バー</dd>
@@ -570,25 +504,23 @@
           </li>
           <li>
             <a href="./about/bar_masquerade" target="_blank">
-              <div class="pict">
-                <img src="./img/bar_masquerade.jpg" alt="バー・マスカレード">
-              </div>
+              <img src="./img/bar_masquerade.jpg" alt="バー・マスカレード">
               <dl>
                 <dt>バー・マスカレード</dt>
                 <dd>バー</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
           <li>
             <a href="./about/fermata" target="_blank">
-              <div class="pict">
                 <img src="./img/fermata.jpg" alt="イタリア料理店 カフェレストラン fermata">
-              </div>
               <dl>
                 <dt>イタリア料理店<br>カフェレストラン fermata</dt>
                 <dd>イタリアン</dd>
                 <dd>パスタ</dd>
                 <dd>バー</dd>
+                <!-- <div class="update">更新!</div> -->
               </dl>
             </a>
           </li>
@@ -597,7 +529,7 @@
       </code>
     </main>
     <footer>
-      <div class="copy">💀 2024 Hell Valley</div>
+      <div class="foot">💀 2024 Hell Valley</div>
     </footer>
     <script src="./js/main.js"></script>
   </body>
@@ -605,22 +537,29 @@
 
 <script>
   // 雪が降るコード
-  window.addEventListener('DOMContentLoaded', () => {
-    const section = document.querySelector('.snow-container'); // コンテナを指定
-    const createSnow = () => { // 雪を生成する関数
-      const snowEl = document.createElement('span');
-      snowEl.className = 'snow';
-      const minSize = 5;
-      const maxSize = 15;
-      const size = Math.random() * (maxSize + 1 - minSize) + minSize;
-      snowEl.style.width = `${size}px`;
-      snowEl.style.height = `${size}px`;
-      snowEl.style.left = Math.random() * innerWidth + 'px';
-      section.appendChild(snowEl);
-      setTimeout(() => { // 一定時間が経てば雪を消す
-        snowEl.remove();
-      }, 20000);
-    }
-    setInterval(createSnow, 300); // 雪が発生する間隔をミリ秒で指定
-  });
+  // window.addEventListener('DOMContentLoaded', () => {
+  //   const section = document.querySelector('.snow-container'); // コンテナを指定
+  //   const createSnow = () => { // 雪を生成する関数
+  //     const snowEl = document.createElement('span');
+  //     snowEl.className = 'snow';
+  //     const minSize = 5;
+  //     const maxSize = 15;
+  //     const size = Math.random() * (maxSize + 1 - minSize) + minSize;
+  //     snowEl.style.width = `${size}px`;
+  //     snowEl.style.height = `${size}px`;
+  //     snowEl.style.left = Math.random() * innerWidth + 'px';
+  //     section.appendChild(snowEl);
+  //     setTimeout(() => { // 一定時間が経てば雪を消す
+  //       snowEl.remove();
+  //     }, 20000);
+  //   }
+  //   setInterval(createSnow, 300); // 雪が発生する間隔をミリ秒で指定
+  // });
+  function information(){
+    var marquee = document.getElementById("information");
+    let today = new Date();
+    let date = today.toLocaleDateString();
+    marquee.textContent = date + " 現在、最新情報はありません";
+  }
+  information();
 </script>

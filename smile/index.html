@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-adsense-account" content="ca-pub-8733534635553152">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-F00MC1WG8L"></script>
@@ -16,38 +17,43 @@
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8733534635553152" crossorigin="anonymous"></script>
   </head>
-  <header class="site-header">
-    <div class="site-header__wrapper">
-      <div class="site-header__start">
-        <a href="./index"><img class="logo" src="./img/smile.png" alt="smile"></a>
-      </div>
-      <div class="site-header__middle">
-        <nav class="nav">
-          <button class="nav__toggle" aria-expanded="false" type="button" aria-haspopup="true" aria-label="menu">
+  <body>
+    <header class="head">
+      <div class="head_wrap">
+        <a href="">
+          <img class="logo" src="./img/smile.png" alt="SMILE">
+        </a>
+        <nav class="global-nav">
+          <button class="nav_toggle-menu" type="button">
             menu
           </button>
-          <ul class="nav__wrapper">
-            <li class="nav__item">
-              <a href="./index">
-                <span>Home</span>
+          <ul class="nav_wrap">
+            <li class="nav_menu">
+              <a href="../index">
+                <span class="nav_text">Home</span>
               </a>
             </li>
-            <li class="nav__item">
+            <li class="nav_menu">
               <a href="./about">
-                <span>About</span>
+                <span class="nav_text">About</span>
               </a>
             </li>
-            <li class="nav__item">
+            <li class="nav_menu">
               <a href="./site-map">
-                <span>Site map</span>
+                <span class="nav_text">Site map</span>
+              </a>
+            </li>
+            <li class="nav_menu">
+              <a href="./release_note">
+                <span class="nav_text">Release</span>
               </a>
             </li>
           </ul>
         </nav>
       </div>
-    </div>
-  </header>
-  <body>
+    </header>
+    <main>
+    <br>
     <article class="article-contents">
       <div class="mapArea">
         <x-sign>
@@ -56,7 +62,6 @@
         <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1v-TMnXx0cr0D--CcXH4-eUkdiFAM7N0&ehbc=2E312F"></iframe>
       </div>
     </article>
-    <main class="main-contents">
       <div class="detailArea">
         <details>
           <summary>インデックスについて</summary>
@@ -389,7 +394,7 @@
       </div>
     </main>
     <footer>
-      <div class="copy">☆ 2024 SMILE</div>
+      <div class="foot">☆ 2024 SMILE</div>
     </footer>
     <script src="./js/main.js"></script>
   </body>
