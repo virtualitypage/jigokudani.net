@@ -3,7 +3,15 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  -->
 <url>
-  <loc>https://jigokudani.net/</loc>
+  <loc>https://jigokudani.net/index</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/ads.txt</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/sitemap.xml</loc>
   <priority>1.0</priority>
 </url>
 <url>
