@@ -529,76 +529,75 @@
       </footer>
     </div>
     <script src="./js/main.js"></script>
+    <script>
+      // 雪が降るコード
+      // window.addEventListener('DOMContentLoaded', () => {
+      //   const section = document.querySelector('.snow-container'); // コンテナを指定
+      //   const createSnow = () => { // 雪を生成する関数
+      //     const snowEl = document.createElement('span');
+      //     snowEl.className = 'snow';
+      //     const minSize = 5;
+      //     const maxSize = 15;
+      //     const size = Math.random() * (maxSize + 1 - minSize) + minSize;
+      //     snowEl.style.width = `${size}px`;
+      //     snowEl.style.height = `${size}px`;
+      //     snowEl.style.left = Math.random() * innerWidth + 'px';
+      //     section.appendChild(snowEl);
+      //     setTimeout(() => { // 一定時間が経てば雪を消す
+      //       snowEl.remove();
+      //     }, 20000);
+      //   }
+      //   setInterval(createSnow, 300); // 雪が発生する間隔をミリ秒で指定
+      // });
+
+      function information() {
+        var marquee = document.getElementById("information");
+        let today = new Date();
+        let date = today.toLocaleDateString();
+        marquee.textContent = date + " 現在、最新情報はありません";
+      }
+      information();
+
+      function setIframeHeight() {
+        // プロセス画面サイズの自動調整
+        var iframe = document.getElementById("process");
+        var windowHeight = window.innerHeight;
+        iframe.style.height = windowHeight + "px";
+        var windowWidth = window.innerWidth;
+        iframe.style.width = windowWidth + "px";
+      }
+      setIframeHeight();
+
+      function hideIframe() {
+        var iframe = document.getElementById("process");
+        iframe.classList.add("hide");
+      }
+      window.onload = function () {
+        var iframe = document.getElementById("process");
+        iframe.onload = function () {
+          hideIframe();
+          var mainContent = document.getElementById("mainContent");
+          mainContent.classList.add("visible");
+        };
+      };
+
+      var userAgent = navigator.userAgent; // ユーザーエージェントを取得
+      if (userAgent.match(/iPhone|iPad|iPod|Android/i)) { // スマートフォンの場合の処理
+        function fadeIn() {
+          var fadeInElement = document.getElementById("fadeInElement"); // indexの内容をフェードインで表示
+          fadeInElement.classList.remove("hide");
+          fadeInElement.classList.add("fade-in");
+        }
+        setTimeout(fadeIn, 1500);
+      }
+      else { // パソコンの場合の処理
+        function fadeIn() {
+          var fadeInElement = document.getElementById("fadeInElement"); // indexの内容をフェードインで表示
+          fadeInElement.classList.remove("hide");
+          fadeInElement.classList.add("fade-in");
+        }
+        setTimeout(fadeIn, 1800);
+      }
+    </script>
   </body>
 </html>
-
-<script>
-  // 雪が降るコード
-  // window.addEventListener('DOMContentLoaded', () => {
-  //   const section = document.querySelector('.snow-container'); // コンテナを指定
-  //   const createSnow = () => { // 雪を生成する関数
-  //     const snowEl = document.createElement('span');
-  //     snowEl.className = 'snow';
-  //     const minSize = 5;
-  //     const maxSize = 15;
-  //     const size = Math.random() * (maxSize + 1 - minSize) + minSize;
-  //     snowEl.style.width = `${size}px`;
-  //     snowEl.style.height = `${size}px`;
-  //     snowEl.style.left = Math.random() * innerWidth + 'px';
-  //     section.appendChild(snowEl);
-  //     setTimeout(() => { // 一定時間が経てば雪を消す
-  //       snowEl.remove();
-  //     }, 20000);
-  //   }
-  //   setInterval(createSnow, 300); // 雪が発生する間隔をミリ秒で指定
-  // });
-
-  function information() {
-    var marquee = document.getElementById("information");
-    let today = new Date();
-    let date = today.toLocaleDateString();
-    marquee.textContent = date + " 現在、最新情報はありません";
-  }
-  information();
-
-  function setIframeHeight() {
-    // プロセス画面サイズの自動調整
-    var iframe = document.getElementById("process");
-    var windowHeight = window.innerHeight;
-    iframe.style.height = windowHeight + "px";
-    var windowWidth = window.innerWidth;
-    iframe.style.width = windowWidth + "px";
-  }
-  setIframeHeight();
-
-  function hideIframe() {
-    var iframe = document.getElementById("process");
-    iframe.classList.add("hide");
-  }
-  window.onload = function () {
-    var iframe = document.getElementById("process");
-    iframe.onload = function () {
-      hideIframe();
-      var mainContent = document.getElementById("mainContent");
-      mainContent.classList.add("visible");
-    };
-  };
-
-  var userAgent = navigator.userAgent; // ユーザーエージェントを取得
-  if (userAgent.match(/iPhone|iPad|iPod|Android/i)) { // スマートフォンの場合の処理
-    function fadeIn() {
-      var fadeInElement = document.getElementById("fadeInElement"); // indexの内容をフェードインで表示
-      fadeInElement.classList.remove("hide");
-      fadeInElement.classList.add("fade-in");
-    }
-    setTimeout(fadeIn, 1500);
-  }
-  else { // パソコンの場合の処理
-    function fadeIn() {
-      var fadeInElement = document.getElementById("fadeInElement"); // indexの内容をフェードインで表示
-      fadeInElement.classList.remove("hide");
-      fadeInElement.classList.add("fade-in");
-    }
-    setTimeout(fadeIn, 1800);
-  }
-</script>
