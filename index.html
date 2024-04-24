@@ -19,9 +19,35 @@
       gtag('config', 'G-F00MC1WG8L');
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8733534635553152" crossorigin="anonymous"></script>
+    <style>
+      .fade-in {
+        animation: fadeIn 1s ease-in-out;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .visible {
+        opacity: 1;
+      }
+      iframe, #mainContent {
+        width: 100%;
+      }
+      #process {
+        position: absolute;
+      }
+      .hide {
+        opacity: 0;
+        display: none;
+      }
+    </style>
   </head>
   <body>
-    <iframe id="process" src="./process.html" frameborder="0" scrolling="no" allow="fullscreen"></iframe>
+    <iframe id="process" src="./process.html" frameborder="0" scrolling="no" allow="fullscreen" title="processing"></iframe>
     <div id="fadeInElement" class="hide">
       <header class="head">
         <div class="head_wrap">
@@ -73,7 +99,7 @@
           <table class="btn-group">
             <tr>
               <td>
-                <a class="btn-form" onclick="googleForm()">御意見頂戴フォーム</a>
+                <a class="btn-form" href="https://docs.google.com/forms/d/e/1FAIpQLSeROUFw0iosd3xWHyAGFZoC45dAxv3d6y2H4goEDyxrCBbj5g/viewform">御意見頂戴フォーム</a>
               </td>
               <td>
                 <p>　　</p>
@@ -94,9 +120,9 @@
                     <dt>串揚げ居酒屋 <br class="line-break">秋久</dt>
                   </dl>
                   <dl>
+                    <dt></dt>
                     <dd>串揚げ</dd>
                     <dd>串カツ</dd>
-                    <div class="update">更新!</div>
                   </dl>
                 </a>
               </li>
@@ -124,7 +150,6 @@
                   <dl>
                     <dt>串焼きダイニング 善</dt>
                     <dd>焼鳥</dd>
-                    <div class="update">更新!</div>
                   </dl>
                 </a>
               </li>
@@ -134,7 +159,6 @@
                   <dl>
                     <dt>スタンド酒場 <br class="line-break">まはろ</dt>
                     <dd>立ち呑み居酒屋</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -146,7 +170,6 @@
                     <dd>居酒屋</dd>
                     <dd>お好み焼き</dd>
                     <dd>鉄板焼き</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -157,7 +180,6 @@
                     <dt>海鮮居酒屋<br>やぎちゃん</dt>
                     <dd>居酒屋</dd>
                     <dd>魚介・海鮮料理</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -176,7 +198,6 @@
                   <dl>
                     <dt>立呑 ぱぐちゃん</dt>
                     <dd>立ち呑み居酒屋</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -188,7 +209,6 @@
                     <dd>居酒屋</dd>
                     <dd>魚介・海鮮料理</dd>
                     <dd>天ぷら</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -207,7 +227,6 @@
                   <dl>
                     <dt>スタンド とよ</dt>
                     <dd>居酒屋</dd>
-                    <div class="update">更新!</div>
                   </dl>
                 </a>
               </li>
@@ -217,7 +236,6 @@
                   <dl>
                     <dt>酒場カロン</dt>
                     <dd>立ち呑み居酒屋</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -238,7 +256,6 @@
                     <dd>居酒屋</dd>
                     <dd>おでん</dd>
                     <dd>鉄板焼き</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -248,7 +265,6 @@
                   <dl>
                     <dt>立呑みコクレ</dt>
                     <dd>立ち呑みバー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -259,7 +275,6 @@
                     <dt>桜ねくすと</dt>
                     <dd>居酒屋</dd>
                     <dd>中華料理</dd>
-                    <div class="update">更新!</div>
                   </dl>
                 </a>
               </li>
@@ -269,7 +284,6 @@
                   <dl>
                     <dt>ほっこりばーる<br>ほしぼし</dt>
                     <dd>バー</dd>
-                    <div class="update">更新!</div>
                   </dl>
                 </a>
               </li>
@@ -279,7 +293,6 @@
                   <dl>
                     <dt>地獄谷 <br class="line-break">餃子さんかく</dt>
                     <dd>餃子</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -309,7 +322,6 @@
                     <dd>ラーメン</dd>
                     <dd>居酒屋・ダイニングバー</dd>
                     <dd>油そば</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -319,7 +331,6 @@
                   <dl>
                     <dt>酒場ダイガク</dt>
                     <dd>居酒屋</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -329,7 +340,6 @@
                   <dl>
                     <dt>炭火焼鳥 <br class="line-break">鉄カブト</dt>
                     <dd>焼鳥</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -348,7 +358,6 @@
                   <dl>
                     <dt>天ぷらとお出汁 渉</dt>
                     <dd>天ぷら</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -359,7 +368,6 @@
                     <dt>そよぎ庵</dt>
                     <dd>茶葉料理</dd>
                     <dd>バー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -378,7 +386,6 @@
                   <dl>
                     <dt>五右衛門</dt>
                     <dd>カレー</dd>
-                    <div class="update">更新!</div>
                   </dl>
                 </a>
               </li>
@@ -388,7 +395,6 @@
                   <dl>
                     <dt>jigokudani karaoke bar <br class="line-break">つーやん</dt>
                     <dd>カラオケバー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -398,7 +404,6 @@
                   <dl>
                     <dt>呑処 なごみ</dt>
                     <dd>居酒屋</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -409,7 +414,6 @@
                     <dt>おとーり酒場　<br class="line-break">白菊</dt>
                     <dd>居酒屋</dd>
                     <dd>沖縄料理</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -419,7 +423,6 @@
                   <dl>
                     <dt>うたのや</dt>
                     <dd>カラオケバー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -439,7 +442,6 @@
                     <dt>酒縁　ゆるり</dt>
                     <dd>日本酒バー</dd>
                     <dd>郷土料理</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -449,7 +451,6 @@
                   <dl>
                     <dt>こうふく</dt>
                     <dd>お好み焼き</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -460,7 +461,6 @@
                     <dt>地獄谷 <br class="line-break">串焼つーたん</dt>
                     <dd>立ち呑み居酒屋</dd>
                     <dd>串焼き</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -470,7 +470,6 @@
                   <dl>
                     <dt>地獄谷立呑みスタンドエルマノス</dt>
                     <dd>バー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -480,7 +479,6 @@
                   <dl>
                     <dt>地獄谷冥土バー</dt>
                     <dd>バー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -508,7 +506,6 @@
                   <dl>
                     <dt>バー・マスカレード</dt>
                     <dd>バー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -520,7 +517,6 @@
                     <dd>イタリアン</dd>
                     <dd>パスタ</dd>
                     <dd>バー</dd>
-                    <!-- <div class="update">更新!</div> -->
                   </dl>
                 </a>
               </li>
@@ -535,38 +531,6 @@
     <script src="./js/main.js"></script>
   </body>
 </html>
-
-<style>
-  .fade-in {
-    animation: fadeIn 1s ease-in-out;
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  .visible {
-    opacity: 1;
-  }
-
-  iframe, #mainContent {
-    width: 100%;
-  }
-
-  #process {
-    position: absolute;
-  }
-
-  .hide {
-    opacity: 0;
-    display: none;
-  }
-</style>
 
 <script>
   // 雪が降るコード
