@@ -145,7 +145,7 @@ code[class] {
   margin: 5vw auto 0vw;
 }
 
-.hero .map {
+.hero {
   margin: 0 auto;
   width: 92%;
 }
@@ -173,7 +173,7 @@ code[class] {
     margin: 75px auto 5px;
   }
 
-  .hero .map {
+  .hero {
     width: 666px;
   }
 }
