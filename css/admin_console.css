@@ -258,7 +258,7 @@ h2,p {
 }
 
 .cellSize {
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 .statusBatch {
@@ -275,7 +275,7 @@ h2,p {
 
 .tr-textLeft {
   text-align: left;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 900;
 }
 
@@ -290,7 +290,7 @@ h2,p {
 }
 
 .table-textSize {
-  font-size: .75rem;
+  font-size: 1rem;
   line-height: 1rem;
 }
 
@@ -325,8 +325,13 @@ h2,p {
 
   .tr-textLeft {
     text-align: left;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 900;
+  }
+
+  .table-textSize {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
