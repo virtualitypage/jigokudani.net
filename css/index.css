@@ -191,6 +191,15 @@ marquee {
   font-size: 15px;
 }
 
+.marquee2 {
+  color: rgb(255 255 255);
+  background-color: rgba(255, 0, 0, 0.5);
+  margin-top: 10px;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 article {
   padding: 7% 0;
 }
@@ -263,6 +272,15 @@ article {
   marquee {
     color: rgb(255 255 255);
     background-color: rgb(155 0 255 / 0.5);
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .marquee2 {
+    color: rgb(255 255 255);
+    background-color: rgba(255, 0, 0, 0.5);
     margin-top: 10px;
     padding: 10px;
     font-weight: bold;

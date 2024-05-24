@@ -66,6 +66,7 @@
           <!-- <img src="./img/map.webp" alt="locale MAP"> -->
         </div>
       </div>
+      <marquee class="marquee2" id="warning"></marquee>
       <br>
       <marquee id="information"></marquee>
       <article>
@@ -103,7 +104,6 @@
                 <dl>
                   <dt>味希 野田阪神店</dt>
                   <dd>焼肉</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -117,13 +117,12 @@
               </a>
             </li>
             <li>
-              <a href="./about/zen">
+              <a href="">
                 <img src="./img/zen.webp" alt="串焼きダイニング 善">
                 <dl>
                   <dt>串焼きダイニング 善</dt>
                   <dd>コース料理前提</dd>
                   <dd>串焼き</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -144,7 +143,6 @@
                   <dd>居酒屋</dd>
                   <dd>お好み焼き</dd>
                   <dd>鉄板焼き</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -183,7 +181,6 @@
                   <dt>大衆酒場 お多福</dt>
                   <dd>居酒屋</dd>
                   <dd>魚介・海鮮料理</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -193,7 +190,6 @@
                 <dl>
                   <dt>シニア倶楽部 <br class="line-break">遊時</dt>
                   <dd>スナック</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -203,7 +199,6 @@
                 <dl>
                   <dt>スタンド とよ</dt>
                   <dd>居酒屋</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -213,7 +208,6 @@
                 <dl>
                   <dt>酒場カロン</dt>
                   <dd>立ち呑み居酒屋</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -234,7 +228,6 @@
                   <dd>居酒屋</dd>
                   <dd>串カツ</dd>
                   <dd>おでん</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -254,7 +247,6 @@
                   <dt>桜ねくすと</dt>
                   <dd>居酒屋</dd>
                   <dd>中華料理</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -275,7 +267,6 @@
                 <dl>
                   <dt>ほっこりばーる<br>ほしぼし</dt>
                   <dd>バー</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -286,7 +277,6 @@
                   <dt>地獄谷 餃子さんかく</dt>
                   <dd>餃子</dd>
                   <dd>小籠包</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -314,7 +304,6 @@
                 <dl>
                   <dt>いちまるらーめん</dt>
                   <dd>ラーメン</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -379,7 +368,6 @@
                 <dl>
                   <dt>五右衛門</dt>
                   <dd>カレー</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -446,7 +434,6 @@
                 <dl>
                   <dt>酒縁　ゆるり</dt>
                   <dd>日本酒居酒屋</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -475,7 +462,6 @@
                 <dl>
                   <dt>地獄谷冥土バー</dt>
                   <dd>バー</dd>
-                  <dd style="background-color: rgb(0, 255, 0);">更新！</dd>
                 </dl>
               </a>
             </li>
@@ -551,9 +537,15 @@
         let today = new Date();
         let date = today.toLocaleDateString();
         // marquee.textContent = date + " 現在、最新情報はありません";
-        marquee.textContent = date + "： 6月1日、トップページの情報をアップデートします。それまでしばらく混乱を招くかもしれませんがご了承下さい(アップデートのリリース準備自体は完了しています) とある店で食べたものが原因で食◯毒に";
+        marquee.textContent = date + "： 6月1日、トップページの情報をアップデートします。それまでしばらく混乱を招くかもしれませんがご了承下さい(アップデートのリリース準備自体は完了しています) ";
       }
       information();
+
+      function warning() {
+        var marquee = document.getElementById("warning");
+        marquee.textContent = "WARNING： とある店で食べたものが原因で食中毒になる事案が発生、ご注意ください。";
+      }
+      warning();
     </script>
   </body>
 </html>
