@@ -66,8 +66,6 @@
           <!-- <img src="./img/map.webp" alt="locale MAP"> -->
         </div>
       </div>
-      <marquee class="marquee2" id="warning"></marquee>
-      <br>
       <marquee id="information"></marquee>
       <article>
         <table class="btn-group">
@@ -117,7 +115,7 @@
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="./about/zen">
                 <img src="./img/zen.webp" alt="串焼きダイニング 善">
                 <dl>
                   <dt>串焼きダイニング 善</dt>
@@ -541,12 +539,6 @@
         marquee.textContent = date + "： 6月1日、トップページの情報をアップデートします。それまでしばらく混乱を招くかもしれませんがご了承下さい(アップデートのリリース準備自体は完了しています) ";
       }
       information();
-
-      function warning() {
-        var marquee = document.getElementById("warning");
-        marquee.textContent = "WARNING： とある店で食べたものが原因で食中毒になる事案が発生、ご注意ください。";
-      }
-      warning();
     </script>
   </body>
 </html>
