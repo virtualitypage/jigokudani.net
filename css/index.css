@@ -191,15 +191,6 @@ marquee {
   font-size: 15px;
 }
 
-.marquee2 {
-  color: rgb(255 255 255);
-  background-color: rgba(255, 0, 0, 0.5);
-  margin-top: 10px;
-  padding: 8px;
-  font-weight: bold;
-  font-size: 15px;
-}
-
 article {
   padding: 7% 0;
 }
@@ -245,7 +236,7 @@ article {
   border-top: solid 2px rgb(203, 255, 250);
   /* overflow: hidden; */
   /* box-shadow: 0px 0px 20px 2px rgba(255,184,78,.6), 0px 0px 30px 2px rgba(1, 211, 189,.4); 金色仕上げ */
-  box-shadow: 0px 0px 20px 2px rgba(1, 211, 189, 0.6), 0px 0px 30px 2px rgba(1, 211, 189, 0.5);
+  /* box-shadow: 0px 0px 20px 2px rgba(1, 211, 189, 0.6), 0px 0px 30px 2px rgba(1, 211, 189, 0.5); */
   animation-name: rotate;
   animation-duration: 0s; /* アニメーション周期所要時間。単位は秒(s)またはミリ秒(ms) */
   animation-timing-function: linear;
@@ -268,19 +259,45 @@ article {
   box-shadow: 0px 0px 0px 2px rgb(255 255 255);
 }
 
+.btn-admin_console {
+  font-weight: bold;
+  font-size: 13px;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: rgb(211 1 200);
+  color: rgb(255 255 255);
+  border: solid 2px rgb(165 0 196);
+  border-top: solid 2px rgb(255 203 240);
+  /* overflow: hidden; */
+  box-shadow: 0px 0px 20px 2px rgba(255,184,78,.6), 0px 0px 30px 2px rgba(1, 211, 189,.4); /* 金色仕上げ */
+  /* box-shadow: 0px 0px 20px 2px rgba(1, 211, 189, 0.6), 0px 0px 30px 2px rgba(1, 211, 189, 0.5); */
+  animation-name: rotate;
+  animation-duration: 0s; /* アニメーション周期所要時間。単位は秒(s)またはミリ秒(ms) */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; /* 無限に繰り返す */
+  animation-direction: normal; /* reverse => 逆方向 | normal => 順方向 */
+  animation-play-state: running;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(10turn);
+  }
+}
+
+.btn-admin_console:hover {
+  background-color: rgb(211 1 200);
+}
+
+.btn-admin_console:active {
+  box-shadow: 0px 0px 0px 2px rgb(255 255 255);
+}
+
 @media screen and (min-width: 769px) {
   marquee {
     color: rgb(255 255 255);
     background-color: rgb(155 0 255 / 0.5);
-    margin-top: 10px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  .marquee2 {
-    color: rgb(255 255 255);
-    background-color: rgba(255, 0, 0, 0.5);
     margin-top: 10px;
     padding: 10px;
     font-weight: bold;
@@ -296,40 +313,6 @@ article {
     margin: auto;
     justify-content: space-evenly;
     position: relative;
-  }
-
-  .btn-form {
-    font-weight: bold;
-    font-size: 14px;
-    display: inline-block;
-    padding: 0.5em 7em;
-    text-decoration: none;
-    background-color: rgb(103 58 183);
-    box-shadow: 0px 0px 0px 2px #0a0a0a;
-    color: rgb(255 255 255);
-    border: solid 2px rgb(86 48 150);
-    border-top: solid 2px rgb(188 150 255);
-  }
-
-  .btn-another_site {
-    font-weight: bold;
-    font-size: 14px;
-    display: inline-block;
-    padding: 0.5em 7em;
-    text-decoration: none;
-    background-color: rgb(1, 211, 189);
-    color: rgb(255 255 255);
-    border: solid 2px rgb(0, 159, 143);
-    border-top: solid 2px rgb(203, 255, 250);
-    /* overflow: hidden; */
-    /* box-shadow: 0px 0px 20px 2px rgba(255,184,78,.6), 0px 0px 30px 2px rgba(1, 211, 189,.4); 金色仕上げ */
-    box-shadow: 0px 0px 20px 2px rgba(1, 211, 189, 0.6), 0px 0px 30px 2px rgba(1, 211, 189, 0.5);
-    animation-name: rotate;
-    animation-duration: s; /* アニメーション周期所要時間。単位は秒(s)またはミリ秒(ms) */
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; /* 無限に繰り返す */
-    animation-direction: normal; /* reverse => 逆方向 | normal => 順方向 */
-    animation-play-state: running;
   }
 }
 
