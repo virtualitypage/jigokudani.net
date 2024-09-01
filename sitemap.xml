@@ -31,10 +31,6 @@
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://jigokudani.net/about/koshou</loc>
-  <priority>0.8</priority>
-</url>
-<url>
   <loc>https://jigokudani.net/about/yagi-chan</loc>
   <priority>0.8</priority>
 </url>
@@ -156,6 +152,10 @@
 </url>
 <url>
   <loc>https://jigokudani.net/about/kushiyaki_tsu-tan</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://jigokudani.net/about/soba_sankaku</loc>
   <priority>0.8</priority>
 </url>
 <url>
