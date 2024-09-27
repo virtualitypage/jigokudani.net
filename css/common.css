@@ -143,7 +143,8 @@ footer
 
 footer .foot {
   padding: 8px 0 30px;
-  color: rgb(255 255 255);
+  /* color: rgb(255 255 255); 通常 */
+  color: orange; /* ハロウィン仕様 */
   font-family: 'Epilogue', sans-serif;
   font-size: 14px;
   text-align: center;

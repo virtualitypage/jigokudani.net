@@ -61,7 +61,8 @@ h3,p {
 
 .innerMargin-textColor {
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+  /* color: rgb(243 244 246 / var(--tw-text-opacity)); 通常 */
+  color: orange; /* ハロウィン仕様 */
 }
 
 .container {
