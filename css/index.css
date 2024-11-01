@@ -105,7 +105,7 @@ main {
 }
 
 /* 通常 */
-/* .cm-s-default {
+.cm-s-default {
   color: rgb(255 255 255);
   text-shadow: 0 0 2px #100c0f,0 0 35px #ffffff44,0 0 5px white,0 0 2px white;
 }
@@ -113,17 +113,17 @@ main {
 code[class] {
   color: rgb(255 255 255);
   text-shadow: 0 0 2px #100c0f,0 0 35px #ffffff44,0 0 5px white,0 0 2px white;
-} */
+}
 
 /* ハロウィン仕様 */
-.cm-s-default {
+/* .cm-s-default {
   color: rgb(255, 123, 0);
   text-shadow: 0 0 20px rgb(255, 123, 0),0 0 35px rgb(255, 123, 0),0 0 5px rgb(255, 123, 0),0 0 50px darkorange;
 }
 code[class] {
   color: rgb(255, 123, 0);
   text-shadow: 0 0 20px rgb(255, 123, 0),0 0 35px rgb(255, 123, 0),0 0 5px rgb(255, 123, 0),0 0 50px darkorange;
-}
+} */
 
 .message {
   font-size: 10px;
@@ -458,8 +458,8 @@ shop list
 }
 
 .shop-list li dl dt {
-  /* color: rgb(255 255 255); 通常 */
-  color: orange; /* ハロウィン仕様 */
+  color: rgb(255 255 255);/*  通常 */
+  /* color: orange; ハロウィン仕様 */
   font-size: 20px;
   line-height: 1.6;
   margin-bottom: 3px;

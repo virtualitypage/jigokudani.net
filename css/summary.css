@@ -18,8 +18,8 @@ main {
 }
 
 .introduction p {
-  /* color: rgb(255 255 255); 通常 */
-  color: orange; /* ハロウィン仕様 */
+  color: rgb(255 255 255);/*  通常 */
+  /* color: orange; ハロウィン仕様 */
   font-size: 13px;
   line-height: 1.8;
 }
@@ -29,8 +29,8 @@ main {
 }
 
 .list_item {
-  /* color: rgb(255 255 255); 通常 */
-  color: orange; /* ハロウィン仕様 */
+  color: rgb(255 255 255);/*  通常 */
+  /* color: orange; ハロウィン仕様 */
   font-size: 15px;
   font-weight: bold;
   line-height: 1.6;
