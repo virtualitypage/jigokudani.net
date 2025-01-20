@@ -49,9 +49,9 @@
       </div>
     </header>
     <main>
-      <div class="snow-container">
+      <!-- <div class="snow-container">
         <span class="snow" style="width: 12px; height: 12px; left: 489px;"></span>
-      </div>
+      </div> -->
       <codes class="cm-s-default">
         <!-- <div class="detailArea">
           <details>
@@ -70,7 +70,7 @@
           </details>
         </div>
         <br> -->
-        <br>
+        <!-- <br>
         <div class="detailArea">
           <details>
             <summary style="text-align: center;">2024/11/30: jigokudani.net 過去最大級のリアルタイムアクセス数を記録しました　期限: 2024/12/31</summary>
@@ -102,7 +102,7 @@
             <br>
           </details>
         </div>
-        <br>
+        <br> -->
         <div class="detailArea">
           <details>
             <summary style="text-align: center;">LINE Notify のサービス終了に伴い「御意見頂戴フォーム」も終了？　期限: 2025/3/31</summary>
@@ -605,24 +605,24 @@
     <script src="./js/main.js"></script>
     <script>
       // 雪が降るコード
-      window.addEventListener('DOMContentLoaded', () => {
-        const section = document.querySelector('.snow-container'); // コンテナを指定
-        const createSnow = () => { // 雪を生成する関数
-          const snowEl = document.createElement('span');
-          snowEl.className = 'snow';
-          const minSize = 5;
-          const maxSize = 15;
-          const size = Math.random() * (maxSize + 1 - minSize) + minSize;
-          snowEl.style.width = `${size}px`;
-          snowEl.style.height = `${size}px`;
-          snowEl.style.left = Math.random() * innerWidth + 'px';
-          section.appendChild(snowEl);
-          setTimeout(() => { // 一定時間が経てば雪を消す
-            snowEl.remove();
-          }, 20000);
-        }
-        setInterval(createSnow, 300); // 雪が発生する間隔をミリ秒で指定
-      });
+      // window.addEventListener('DOMContentLoaded', () => {
+      //   const section = document.querySelector('.snow-container'); // コンテナを指定
+      //   const createSnow = () => { // 雪を生成する関数
+      //     const snowEl = document.createElement('span');
+      //     snowEl.className = 'snow';
+      //     const minSize = 5;
+      //     const maxSize = 15;
+      //     const size = Math.random() * (maxSize + 1 - minSize) + minSize;
+      //     snowEl.style.width = `${size}px`;
+      //     snowEl.style.height = `${size}px`;
+      //     snowEl.style.left = Math.random() * innerWidth + 'px';
+      //     section.appendChild(snowEl);
+      //     setTimeout(() => { // 一定時間が経てば雪を消す
+      //       snowEl.remove();
+      //     }, 20000);
+      //   }
+      //   setInterval(createSnow, 300); // 雪が発生する間隔をミリ秒で指定
+      // });
       function information() {
         var marquee = document.getElementById("information");
         let today = new Date();
